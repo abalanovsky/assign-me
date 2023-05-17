@@ -1,0 +1,54 @@
+.column-container {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eaeaea4a;
+    border-radius: 25px;
+    padding: 20px;
+}
+.column-tasks-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.column-heading {
+    font-size: 25px;
+    text-transform: capitalize;
+    text-decoration: underline 5px;
+    padding: 30px 0;
+}
+.search-sort-container {
+    display: flex;
+    align-items: center;
+}
+.todo {
+    text-decoration-color: #1677ff;
+}
+.in-progress {
+    text-decoration-color: orange;
+}
+.finished {
+    text-decoration-color: green;
+}
+.overdue {
+    text-decoration-color: red;
+}
+.background-todo {
+    background-color: #1677ff0d;
+}
+.background-in-progress {
+    background-color: #ffa50030;
+}
+.background-finished {
+    background-color: #0296021f;
+}
+.background-overdue {
+    background-color: #fd5e5e26;
+}
+@media only screen and (max-width: 900px) {
+    .column-container {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}

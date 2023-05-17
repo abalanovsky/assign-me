@@ -1,0 +1,33 @@
+.welcome-page-container {
+    display: flex;
+    padding: 50px;
+}
+.welcome-text-container {
+    width: 70%;
+}
+.auth-container {
+    width: 30%;
+    margin-left: 100px;
+}
+.sign-up-button {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+.sign-up-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+@media only screen and (max-width: 900px) {
+    .welcome-page-container {
+        flex-direction: column;
+    }
+    .welcome-text-container {
+        width: 100%;
+    }
+    .auth-container {
+        width: 100%;
+        margin-left: 0;
+    }
+}

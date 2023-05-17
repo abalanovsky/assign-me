@@ -1,0 +1,31 @@
+.list-tasks-container {
+    padding: 20px;
+}
+.list-tasks-sidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-columns-container {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.buttons-margin {
+    margin: 5px;
+}
+.heading-tasks-list {
+    font-size: 30px;
+    font-weight: 600;
+}
+@media only screen and (max-width: 900px) {
+    .flex-columns-container {
+        flex-direction: column;
+    }
+    .list-tasks-sidebar {
+        flex-direction: column;
+    }
+    .heading-tasks-list {
+        padding: 10px;
+    }
+}
